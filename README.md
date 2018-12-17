@@ -91,8 +91,30 @@ It can also help to run the test suite, since there are tests which are failing 
 #### 1. Operating System
 > When I look at the Organizer Console for an event, the Operating System Breakdown table has difficult-to-read percentages listed for each OS.
 
+- Open the website in Chrome.
+- Click on the "Organizer Console" button on an event page, or within an event box at the homepage. Make sure the event has attendees.
+- Observe that the count and percentage under Operating System breakdown is combined together into one header, "Count".
+
 #### 2. Saving event as draft
 > When I save an event as a draft, I get a 500 error even though I have filled out all of the required fields.
 
+- Open the website in Chrome.
+- Click "Organize Event" button in the "Get Involved" section.
+- Fill in the required information:
+  - Event Session Name
+  - Title
+  - Chapter
+  - Student rsvp limit
+  - Target audience
+- Click "Save Draft"
+- Observe a 500 error appears.
+
 #### 3. Removing event RSVP
 > When I remove an attendee's RSVP for an event, I get an error and the RSVP is not removed.
+
+- Open the website in chrome.
+- Click on the "Organizer Console" button on an event page, or within an event box at the homepage. Make sure the event has attendees.
+- Click "Show all Attendee RSVP Details" button.
+- Click the "Destroy" button for an attendee.
+- Click "OK" for the pop-up box saying "Are you Sure?"
+- Observe a 500 error appears. 
